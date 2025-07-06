@@ -732,6 +732,7 @@ function renderProductCard($product) {
                                 <?php echo renderProductCard($product); ?>
                             <?php endforeach; ?>
                         </div>
+                        <!-- Please remove this  -->
                     <?php else: ?>
                         <p>This seller hasn't listed any products yet.</p>
                     <?php endif; ?>
